@@ -1,5 +1,20 @@
 {
   "creativetab.rosegold_tab": "Zoey's Rose Gold Mod Items",
 
-  "item.zrosegold.rosegold_ingot": "Rose Gold Ingot"
+  "item.zrosegold.rosegold_ingot": "Rose Gold Ingot",
+
+  "item.zrosegold.rosegold_sword": "Rose Gold Sword",
+  "item.zrosegold.rosegold_pickaxe": "Rose Gold Pickaxe",
+  "item.zrosegold.rosegold_axe": "Rose Gold Axe",
+  "item.zrosegold.rosegold_shovel": "Rose Gold Shovel",
+  "item.zrosegold.rosegold_hoe": "Rose Gold Hoe",
+
+  "item.zrosegold.rosegold_helmet": "Rose Gold Helmet",
+  "item.zrosegold.rosegold_chestplate": "Rose Gold Chestplate",
+  "item.zrosegold.rosegold_leggings": "Rose Gold Leggings",
+  "item.zrosegold.rosegold_boots": "Rose Gold Boots",
+
+  "item.zrosegold.rosegold_apple": "Rose Gold Apple",
+
+  "block.zrosegold.rosegold_block": "Block of Rose Gold"
 }

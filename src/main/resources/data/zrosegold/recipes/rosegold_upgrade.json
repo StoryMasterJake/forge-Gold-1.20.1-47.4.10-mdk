@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "III",
     "IAI",
-    "III"
+    "IAI",
+    "IAI"
   ],
   "key": {
     "I": {

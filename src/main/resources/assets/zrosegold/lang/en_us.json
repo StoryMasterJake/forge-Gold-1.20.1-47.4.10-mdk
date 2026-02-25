@@ -16,5 +16,11 @@
 
   "item.zrosegold.rosegold_apple": "Rose Gold Apple",
 
+  "item.zrosegold.smithing_template.rosegold_upgrade": "Rose Gold Upgrade",
+  "item.zrosegold.smithing_template.rosegold_upgrade.additions_slot_description": "Add Rose Gold Ingot",
+  "item.zrosegold.smithing_template.rosegold_upgrade.applies_to": "Golden Equipment",
+  "item.zrosegold.smithing_template.rosegold_upgrade.base_slot_description": "Add golden armor, weapon, or tool",
+  "item.zrosegold.smithing_template.rosegold_upgrade.ingredients": "Rose Gold Ingot",
+
   "block.zrosegold.rosegold_block": "Block of Rose Gold"
 }

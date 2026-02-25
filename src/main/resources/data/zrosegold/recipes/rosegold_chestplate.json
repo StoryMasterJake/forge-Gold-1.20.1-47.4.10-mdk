@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "zrosegold:rosegold_ingot"
+    }
+  },
+  "result": {
+    "item": "zrosegold:rosegold_chestplate"
+  }
+}

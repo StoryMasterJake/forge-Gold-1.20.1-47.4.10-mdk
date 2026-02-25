@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.zoeydismal.zrosegold.ZRoseGoldMod;
+import net.zoeydismal.zrosegold.item.custom.SmithingTemplate;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -36,6 +37,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> ROSEGOLD_APPLE = ITEMS.register("rosegold_apple",
             () -> new Item(new Item.Properties().food(ModFoods.ROSEGOLD_APPLE)));
+
+    public static final RegistryObject<SmithingTemplateItem> ROSEGOLD_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("rosegold_upgrade_smithing_template",
+            SmithingTemplate::createRoseGoldUpgradeTemplate);
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

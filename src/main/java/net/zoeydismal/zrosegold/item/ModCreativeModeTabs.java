@@ -19,10 +19,6 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.rosegold_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-                        output.accept(ModItems.ROSEGOLD_INGOT.get());
-
-                        output.accept(ModBlocks.ROSEGOLD_BLOCK.get());
-
                         output.accept(ModItems.ROSEGOLD_SWORD.get());
                         output.accept(ModItems.ROSEGOLD_PICKAXE.get());
                         output.accept(ModItems.ROSEGOLD_AXE.get());
@@ -34,7 +30,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ROSEGOLD_LEGGINGS.get());
                         output.accept(ModItems.ROSEGOLD_BOOTS.get());
 
+                        output.accept(ModItems.ROSEGOLD_INGOT.get());
+
+                        output.accept(ModBlocks.ROSEGOLD_BLOCK.get());
+
                         output.accept(ModItems.ROSEGOLD_APPLE.get());
+                        output.accept(ModItems.ROSEGOLD_UPGRADE_SMITHING_TEMPLATE.get());
 
                     })
                     .build());

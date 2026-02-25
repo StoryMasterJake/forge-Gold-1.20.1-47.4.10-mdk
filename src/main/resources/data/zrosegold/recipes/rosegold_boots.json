@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "zrosegold:rosegold_ingot"
+    }
+  },
+  "result": {
+    "item": "zrosegold:rosegold_boots"
+  }
+}

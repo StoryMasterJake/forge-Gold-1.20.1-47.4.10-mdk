@@ -11,7 +11,7 @@ import net.zoeydismal.zrosegold.ZRoseGoldMod;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ROSEGOLD("rosegold", 13, new int[]{2, 5, 4, 1}, 20,
+    ROSEGOLD("rosegold", 14, new int[]{2, 6, 5, 2}, 23,
             SoundEvents.ARMOR_EQUIP_GOLD, 0, 0, () -> Ingredient.of(ModItems.ROSEGOLD_INGOT.get()));
 
      private final String name;

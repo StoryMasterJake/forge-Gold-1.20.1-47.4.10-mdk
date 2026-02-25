@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zrosegold:rosegold_block"
+    }
+  ],
+  "result": {
+    "item": "zrosegold:rosegold_ingot",
+    "count": 9
+  }
+}

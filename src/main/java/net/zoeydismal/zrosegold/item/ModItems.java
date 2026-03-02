@@ -36,7 +36,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ROSEGOLD, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> ROSEGOLD_APPLE = ITEMS.register("rosegold_apple",
-            () -> new Item(new Item.Properties().food(ModFoods.ROSEGOLD_APPLE)));
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoods.ROSEGOLD_APPLE)));
 
     public static final RegistryObject<SmithingTemplateItem> ROSEGOLD_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("rosegold_upgrade_smithing_template",
             SmithingTemplate::createRoseGoldUpgradeTemplate);

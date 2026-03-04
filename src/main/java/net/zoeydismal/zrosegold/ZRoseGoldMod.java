@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.zoeydismal.zrosegold.block.ModBlocks;
 import net.zoeydismal.zrosegold.item.ModCreativeModeTabs;
 import net.zoeydismal.zrosegold.item.ModItems;
+import net.zoeydismal.zrosegold.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,6 +34,8 @@ public class ZRoseGoldMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
